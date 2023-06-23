@@ -1,0 +1,80 @@
+.courseItem {
+  background-color: #fff;
+  /* border-radius: 25px; */
+  min-height: 300px;
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+}
+.courseItem:hover {
+  transition: margin-top 0.2s ease-in-out;
+  cursor: pointer;
+  margin-top: -10px;
+}
+.courseTop {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  top: 0;
+  left: 0;
+  /* background-color: aqua; */
+  padding: 5px 10px;
+}
+.courseBottom {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(39, 174, 96, 0.9);
+  padding: 5px 10px;
+  line-height: 0.5rem;
+}
+.imageCourse {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.courseTop::after {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* background: blue; */
+}
+.courseTitle {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.teachername {
+  font-size: 0.6rem;
+}
+.fa-star {
+  color: rgba(255, 255, 255, 0.8);
+}
+.checked {
+  color: #f9a825;
+}
+.princeCourse {
+  color: #f9a825;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.hoursCourse {
+  font-weight: 400;
+}
+.recomanderCourse {
+  /* font-weight: bold; */
+  font-size: 0.8rem;
+  color: #fff;
+  background-color: #f9a825;
+  width: fit-content;
+  padding: 4px;
+  border-radius: 10px;
+}

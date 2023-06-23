@@ -1,0 +1,67 @@
+body {
+  box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+}
+.signin-box {
+  background: #fff;
+  margin-top: 7rem;
+}
+.before-signin-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+.other-signin-method {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.other-signin-method-images {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.other-signin-method .icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #3cb815;
+  color: #fff;
+  margin: 10px;
+
+  /* padding: 6px 6px 6px 6px; */
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+.facebook-icon:hover {
+  background: rgb(90, 90, 214);
+}
+.google-icon:hover {
+  background: rgb(224, 59, 59);
+}
+.github-icon:hover {
+  background: #2c2a2a;
+}
+.spinner-icon:hover {
+  background: #949393;
+}
+.texte {
+  text-align: center;
+  /* width: 100%; */
+  margin-top: 1.7rem;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+#btn-signin {
+  /* background: linear-gradient(215deg, #546e7a, #37474f); */
+  background: #3cb815;
+  border: none;
+}

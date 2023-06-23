@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/* .App {
+  display: flex;
+  position: relative;
+} */
+.mainSection {
+  width: 100%;
+  min-height: 100%;
+  padding: 15px;
+  /* background-color: blueviolet; */
+}
+/* .active {
+      background-color: lime;
+      height: 500px;
+    } */
+.menuItem {
+  color: "grey";
+  margin-bottom: "5px";
+  background-color: "red";
+}
+.iconColor {
+  /* color: #00009c; */
+  color: rgba(0, 0, 156, 0.7);
+}

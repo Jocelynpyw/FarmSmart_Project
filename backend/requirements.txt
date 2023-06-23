@@ -1,0 +1,14 @@
+asgiref
+Django
+django-cors-headers
+djangorestframework
+djangorestframework-simplejwt
+pika
+dj-database-url
+gunicorn
+psycopg2-binary
+PyJWT
+pytz
+sqlparse
+pillow
+djoser

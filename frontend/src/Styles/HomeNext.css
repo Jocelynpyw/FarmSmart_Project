@@ -1,0 +1,314 @@
+/* /////////////////////////////////////////////////Nous rejoindre section //////////////////////////////// */
+
+#action {
+  height: 20rem;
+  background: linear-gradient(rgba(39, 174, 96, 0.9), rgba(39, 174, 96, 0.9)),
+    url(https://health-center.vamtam.com/wp-content/uploads/2014/01/bg_quote.jpg)
+      fixed center center;
+  /* background: url('https://health-center.vamtam.com/wp-content/uploads/2014/01/bg_quote.jpg') no-repeat; */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  color: white;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.action-cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+}
+#action .action-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+  padding: 10px 15px;
+}
+#action p {
+  padding: 10px 15px;
+}
+.action-cover-row {
+  margin-top: 6rem;
+}
+.btn-action {
+  padding: 10px 15px;
+  margin-top: 4rem;
+}
+.btn-rejoindre {
+  margin-top: 2rem;
+}
+.btn-ensemble {
+  width: 129px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 200px;
+  text-align: center;
+  background-color: #27ae60;
+  color: white;
+}
+/* //////////////////////////STYLE SECTION STAT START ////////////////////////////////////////// */
+#stat {
+  margin-top: 3rem;
+}
+/* .stat-item-container{
+      position: relative;
+  
+  } */
+.stat-item-container {
+  position: relative;
+  /* width: 100%; */
+  /* width: 10rem; */
+  height: 8rem;
+  width: 17rem;
+
+  background: white;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 30px 25px 30px;
+  border-radius: 2px;
+  color: black;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.stat-item-container:hover .stat-item-box-title {
+  color: #082744;
+  transition: all 0.1s ease;
+}
+.stat-item-box-icon-box {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-color: #27ae60;
+  border-radius: 50%;
+  top: -1.5rem;
+
+  /* transform: translateX(110%); */
+}
+.stat-item-box-number {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #082744;
+}
+.stat-item-box-title {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+.stat-item-box-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+/* //////////////////////////STYLE SECTION STAT END ////////////////////////////////////////// */
+
+/* ///////////////////////////////////////SECTION CONNTACT STYLE START ////////////////////////////////// */
+#formulaire {
+  box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+  padding: 30px;
+}
+.input-contact-form {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 10px 13px;
+  outline: none;
+  font-size: 14px;
+  color: #495057;
+}
+.input-contact-form:focus {
+  /* border-color: rgba(255, 0, 0,0.2); */
+}
+.textarea-contact-form {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 15px 20px;
+  outline: none;
+  font-size: 14px;
+
+  color: #495057;
+}
+.btn-send-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btnsendform {
+  padding: 10px 50px;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 1px;
+  background: #27ae60;
+}
+#btnsendform:hover {
+  opacity: 0.8;
+  transition: all 0.1s ease;
+}
+.contact-box-item {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  padding: 10px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+
+  margin-top: 2rem;
+}
+.btn-rejoindre {
+  margin-top: 2rem;
+}
+.contact-box-item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  /* background-color: rebeccapurple; */
+  border: 2px dotted #27ae60;
+  color: #27ae60;
+  border-radius: 50%;
+  font-size: 24px;
+  margin: 5px;
+}
+.contact-box-item h3 {
+  font-size: 1.3rem;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: #656262;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.contact-box-item p {
+  padding: 5px 10px;
+}
+/* ///////////////////////////////////////SECTION CONNTACT STYLE END ////////////////////////////////// */
+
+/* ///////////////////////////////////////SECTON FOOTER STYLE START ///////////////////////////////// */
+#footer {
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.6);
+  color: #777777;
+  margin-top: 4rem;
+  padding: 60px 0 0px 0;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgb(25 119 204 / 10%);
+}
+.footer-box-item {
+  /* margin: auto; */
+  /* position: relative; */
+}
+.footer-texte-box ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 0.6rem;
+}
+
+.footer-texte-box ul a {
+  text-decoration: none;
+  list-style: none;
+}
+.fa-chevron-right {
+  font-size: 10px;
+  margin-left: 2px;
+  color: #1977cc;
+}
+.footer-texte-box-link {
+  text-decoration: none;
+  list-style: none;
+  color: #777777;
+}
+.footer-texte-box-link:hover {
+  color: #1977cc;
+}
+.footer-title-box h2 {
+  margin-bottom: 30px;
+  color: #444444;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  transform: translateX(2rem);
+}
+.footer-texte-box {
+  padding: 20px;
+}
+.footer-texte-box p {
+  /* padding: 20px; */
+  transform: translateX(1.8rem);
+}
+.box-btn-newletter {
+  position: relative;
+}
+#btn-newletter {
+  width: 100%;
+  position: relative;
+  /* height: 2rem; */
+  outline: none;
+  border-radius: 30px;
+  height: 3rem;
+  border: none;
+  /* box-shadow: 0px 0px 5px rgb(214 215 216 / 60%); */
+  border: 1px solid #bfdcf7;
+}
+
+.box-btn-newletter button {
+  position: absolute;
+  width: 0px;
+  right: 0px;
+  width: 30%;
+  outline: none;
+  border-radius: 30px;
+  height: 3rem;
+  border: none;
+  padding: 6px 10px;
+  background: #27ae60;
+  color: white;
+}
+.box-btn-newletter button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.footer-bottom-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-bottom-icon-container .footer-bottom-icon-box {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #27ae60;
+}
+
+#footer-bottom-container {
+  min-height: 6rem;
+  background: #27ae60;
+  padding-top: 30px;
+  color: white;
+}
+.btn-whatsapp {
+  background-color: #27ae60;
+}
+/* ///////////////////////////////////////SECTON FOOTER STYLE END ///////////////////////////////// */

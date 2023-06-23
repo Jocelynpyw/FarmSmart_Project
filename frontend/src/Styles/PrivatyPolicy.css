@@ -1,0 +1,26 @@
+h1 {
+  font-size: 1.4rem;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+.hun {
+  font-size: 1.4rem;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+#firt-title {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-weight: 0;
+  font-size: 1.6rem;
+}
+#firt-title span {
+  font-weight: bold;
+}
+.privacy-box {
+  background-color: #fff;
+}
+p {
+  color: #4e4c4c;
+}
